@@ -1,0 +1,16 @@
+vulnerability_id: CWE-22
+notes:
+- links:
+  - https://cwe.mitre.org/data/definitions/22.html
+  text: Arbitrary File Write via Archive Extraction (Zip Slip)
+
+fixes:
+- id: DEFAULT_BRANCH
+  commits:
+  - id: f51f4242d67eed9c97a46051cc0c6c72d0830a27
+    repository: https://github.com/deeplearning4j/deeplearning4j
+
+artifacts:
+- id: pkg:maven/org.nd4j/nd4j-common@1.0.0-beta2
+  reason: Reviewed manually
+  affected: true
