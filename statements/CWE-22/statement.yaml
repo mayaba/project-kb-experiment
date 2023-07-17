@@ -5,7 +5,7 @@ notes:
   text: Arbitrary File Write via Archive Extraction (Zip Slip)
 
 fixes:
-- id: DEFAULT_BRANCH
+- id: ab_bert_training
   commits:
   - id: f51f4242d67eed9c97a46051cc0c6c72d0830a27
     repository: https://github.com/deeplearning4j/deeplearning4j
